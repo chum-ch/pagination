@@ -1,5 +1,8 @@
 /* color palette from <https://github.com/vuejs/theme> */
 :root {
+
+  --btn-bg: #e5e9f7;
+  --btn-hover-bg: #2555bb;
   --vt-c-white: #ffffff;
   --vt-c-white-soft: #f8f8f8;
   --vt-c-white-mute: #f2f2f2;
