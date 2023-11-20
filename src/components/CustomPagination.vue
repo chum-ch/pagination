@@ -113,7 +113,7 @@ function goToPage(page) {
   color: var(--btn-hover-bg);
   font-weight: bold;
   outline: none;
-  border: none;
+  border: 1px solid var(--btn-bg);
   border-radius: 5px;
 }
 .pagination .active {
@@ -121,8 +121,7 @@ function goToPage(page) {
   color: var(--vt-c-white);
 }
 .pagination button:hover {
-  color: var(--vt-c-white);
-  background: var(--btn-hover-bg);
+  border: 1px solid var(--btn-hover-bg);
 }
  /* CSS styles for the table */
  table {
